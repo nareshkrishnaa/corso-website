@@ -1,0 +1,37 @@
+.header {
+    min-height: 1000px;
+    background: linear-gradient(to bottom right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url('../images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.register {
+    background-color: #f8b547;
+}
+
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+
+@media(max-width: 992px) {
+    .navbar {
+        background: var(--bs-dark);
+    }
+
+    .header {
+        // height: 800px;
+        min-height: 800px;
+    }
+
+    .invitation-bg {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+
+    }
+}
+
+.invitation-bg {
+    background: linear-gradient(to bottom right, rgba(16, 16, 16, 0.838), rgba(8, 8, 8, 0.86)), url(../images/invitation-background.jpg) center center no-repeat;
+    background-size: cover;
+}
